@@ -1,0 +1,227 @@
+/* NAVBAR SECTION STYLE STARTED HERE */
+
+.navbar {
+    background-color: black;
+}
+
+.navbar .nav-link {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.fa-youtube,
+.fa-waveform-lines,
+.fa-soundcloud,
+.fa-file-pdf,
+.fa-repeat,
+.fa-screwdriver-wrench {
+    margin-right: 7px;
+}
+
+.fa-angle-down {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}
+
+.login-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    border: 1px solid white;
+    outline: none;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+
+/* NAVBAR SECTION STYLE ENDED HERE */
+
+/* MAIN SECTION STYLE STARTED HERE */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F9F9F9;
+}
+
+.contents {
+    width: 600px;
+}
+
+/* CONTENT TOP STYLE STARTED HERE */
+
+.content-top {
+    text-align: center;
+}
+
+.content-top div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content-top div h2 {
+    margin: 0;
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.content-top p {
+    font-size: 14px;
+    margin: 15px 0 0 0;
+    line-height: 17px;
+}
+
+.content-top-img {
+    width: 60px;
+}
+
+/* CONTENT TOP STYLE ENDED HERE */
+
+
+/* CONTENT CENTER STYLE STARTED HERE */
+
+.content-center .content-center-details {
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-top: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-center-details .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-center-details .details button {
+    background-color: #0346FF;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 30px;
+    line-height: 20px;
+}
+
+.content-center-details .details button span {
+    font-size: 12px;
+    opacity: .6;
+}
+
+.content-center-details .other-option {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.other-option .drive a,
+.other-option .drop-box a,
+.content-center .url a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.other-option .drive img,
+.other-option .drop-box img,
+.content-center .url img {
+    width: 16px;
+    height: 16px;
+}
+
+.other-option .drive span,
+.other-option .drop-box span,
+.other-option .url span {
+    font-size: 13px;
+}
+
+.content-center-details .details .desc-bottom {
+    font-size: 14px;
+    color: #999;
+}
+
+/* CONTENT CENTER STYLE ENDED HERE */
+
+/* CONTENT BOTTOM STYLE STARTED HERE */
+
+.content-bottom .bottom-details {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #555;
+}
+
+.bottom-details .top h6 {
+    margin: 0;
+}
+
+.bottom-details .top p {
+    color: #666;
+}
+
+.bottom-details .top p a {
+    text-decoration: none;
+}
+
+.bottom-details .bottom {
+    font-weight: 600;
+}
+
+/* CONTENT BOTTOM STYLE ENDED HERE */
+
+/* MAIN SECTION STYLE ENDED HERE */
+
+/* FOOTER SECTION STYLE STARTED HERE */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 10px 15px;
+    font-size: 13px;
+}
+
+.footer .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .left span {
+    color: #999;
+    font-size: 12px;
+}
+
+.footer .left a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer .right a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #555;
+}
+
+.footer .left a:hover,
+.footer .right a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER SECTION STYLE ENDED HERE */

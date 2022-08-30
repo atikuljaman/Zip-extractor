@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- BOOTSTRAP CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css" />
+    <title>ZIP EXTRACTOR</title>
+  </head>
+
+  <body>
+    <!-- HEADER SECTION STARTED HERE -->
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo.png" alt="logo" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  ><i class="fa-brands fa-youtube"></i> Video Tools
+                  <i class="fa-solid fa-angle-down"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  ><i class="fa-brands fa-soundcloud"></i> Audio Tools
+                  <i class="fa-solid fa-angle-down"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  ><i class="fa-solid fa-file-pdf"></i> PDF Tools
+                  <i class="fa-solid fa-angle-down"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  ><i class="fa-solid fa-repeat"></i> Converters
+                  <i class="fa-solid fa-angle-down"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  ><i class="fa-solid fa-screwdriver-wrench"></i> Utilities
+                  <i class="fa-solid fa-angle-down"></i
+                ></a>
+              </li>
+            </ul>
+            <div>
+              <button class="login-btn">Login</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HEADER SECTION ENDED HERE -->
+
+    <!-- MAIN SECTION STARTED HERE  -->
+
+    <main class="main">
+      <div class="contents">
+        <!-- CONTENT TOP STARTED HERE -->
+
+        <div class="content-top">
+          <div>
+            <img
+              class="content-top-img"
+              src="./assets/img/content-bg.svg"
+              alt=""
+            />
+            <h2>Archive Extractor</h2>
+          </div>
+          <p>
+            Archive Extractor is a small and easy online tool that can extract
+            over 70 types of compressed files, such as 7z, zipx, rar, tar, exe,
+            dmg and much more.
+          </p>
+        </div>
+
+        <!-- CONTENT TOP ENDED HERE -->
+
+        <!-- CONTENT CENTER STARTED HERE -->
+
+        <div class="content-center">
+          <div class="content-center-details">
+            <div class="details">
+              <button>
+                Choose file <br />
+                <span>from your computer</span>
+              </button>
+              <div class="other-option">
+                <div class="drive">
+                  <a href="#">
+                    <img src="./assets/img/drive.svg" alt="" />
+                    <span>from Google Drive</span>
+                  </a>
+                </div>
+                <div class="drop-box">
+                  <a href="#">
+                    <img src="./assets/img/drop-box.svg" alt="" />
+                    <span>Dropbox</span>
+                  </a>
+                </div>
+                <div class="url">
+                  <a href="#">
+                    <img src="./assets/img/link.svg" alt="" />
+                    <span>URL</span>
+                  </a>
+                </div>
+              </div>
+              <span class="desc-bottom"
+                ><em>or drag and drop file here...</em></span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTENT CENTER ENDED HERE -->
+
+        <!-- CONTENT BOTTOM STARTED HERE -->
+
+        <div class="content-bottom">
+          <div class="bottom-details">
+            <div class="top">
+              <h6>Supported formats:</h6>
+              <p>
+                7z, zipx, rar, tar, exe, dmg, iso, zip, msi, nrg, gz, cab, bz2,
+                wim, ace <a href="#">and 54 more</a>
+              </p>
+            </div>
+            <div class="bottom">
+              Supports password-protected archives <br />
+
+              Can unpack multi-part archives (zip.001, rar.part1, z01, etc)
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTENT BOTTOM ENDED HERE -->
+      </div>
+    </main>
+
+    <!-- MAIN SECTION ENDED HERE  -->
+
+    <!-- FOOTER SECTION STARTED HERE -->
+
+    <footer class="footer">
+      <div class="left">
+        <span>© 123apps Computer Software Est. 2012–2022</span>
+        <a href="#"> Privacy </a>
+        <a href="#">Pricing</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="right">
+        <a href="#"> <i class="fa-solid fa-globe"></i> English </a>
+      </div>
+    </footer>
+
+    <!-- FOOTER SECTION ENDED HERE -->
+
+    <!-- BOOTSTRAP SCRIPT -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
